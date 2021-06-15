@@ -1,0 +1,406 @@
+*{
+  padding:0px;
+  margin:0px;
+  font-family:'Scope One', serif;
+  box-sizing: border-box;
+}
+html,body{
+  height:100%;
+}
+.clearfix::after{
+  content: "";
+display:block;
+clear:both;
+
+}
+
+.wrapper{
+  width:100%;
+  height:100%;
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.header h1{
+  color:white;
+  margin-left:25px;
+  margin-top:25px;
+  font-size:19px;
+}
+.header p{
+  color:white;
+  margin-right:25px;
+  margin-top:25px;
+  font-size:19px;
+}
+.banner{
+  width:50%;
+  text-align:center;
+  margin:0 auto;
+ position:relative;
+ top:220px;
+}
+.banner h4{
+  color:white;
+  font-size:50px;
+  font-weight:600px;
+
+}
+.banner p{
+  color:white;
+  font-size:25px;
+  margin-top:20px;
+  word-spacing: -2px;
+}
+
+.banner a{
+  text-decoration:none;
+  position:relative;
+  top:35px;
+  background-color:rgb(10, 125, 170);
+  font-size:30px;
+  font-weight:600;
+  color:white;
+  padding:5px;
+  border:1px solid rgb(10, 125, 170);
+}
+/* section two start*/
+.two-section{
+  width:75%;
+  margin:0 auto;
+
+}
+
+.image{
+  width:30%;
+  float:left;
+
+}
+.two-section .image img{
+  width:100%;
+  border-radius:100%;
+  margin-top:35px;
+}
+.three-section{
+  width:65%;
+  float:right;
+  margin-top:30px;
+}
+.three-section h3{
+  font-weight:bolder;
+  font-size:20px;
+  
+}
+.three-section p{
+  margin-top:10px;
+  font-size:18px;
+  line-height:25px;
+  text-align:justify;
+
+}
+.three-section button{
+  background-color:rgb(10, 125, 170);
+  border:rgb(10, 125, 170);
+  color:white;
+  font-size:20px;
+  margin-top:20px;
+  padding:5px;
+  font-weight:600;
+
+}
+/* section three starts here*/
+
+.big-container{
+  background-color:rgb(10, 125, 170);
+  width:100%;
+  margin-top:30px;
+
+
+}
+.master{
+  width:70%;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+}
+.master .child1{
+  width:65%;
+  padding:5px;
+
+}
+.master .child1 h3{
+  font-weight:bolder;
+  font-size:20px;
+}
+.master .child1 p{
+  margin-top:10px;
+  font-size:18px;
+  line-height:25px;
+  text-align:justify;
+}
+.master .child1 button{
+  background-color:white;
+  border:white;
+  color:rgb(10, 125, 170);
+  font-size:20px;
+  position:relative;
+  top:5px;
+  padding:5px;
+  font-weight:600;
+  margin-bottom: 5px;
+}
+.master .child2{
+  width:30%;
+  margin-top:50px;
+}
+.master .child2 img{
+  width:100%;
+  border-radius:50%;
+}
+
+/*section 4 start here*/
+
+.big-wrapper{
+  width:100%;
+  margin-top:25px;
+}
+.big-wrapper h5{
+  text-align:center;
+  font-weight:700;
+  letter-spacing: 1px;
+  text-transform:uppercase;
+}
+.big-wrapper p{
+  text-align:center;
+}
+.three-part{
+  width:75%;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-evenly;
+  position:relative;
+  top:50px;
+  
+}
+.fisrt-part{
+  width:30%;
+}
+.second-part{
+  width:30%;
+}
+.third-part{
+  width:30%;
+}
+.fisrt-part img{
+width:85%;
+border-radius:50%;
+}
+.second-part img{
+  width:85%;
+  border-radius:50%;
+  }
+.third-part img{
+    width:85%;
+    border-radius:50%;
+    }
+.fisrt-part p{
+  text-align:justify;
+  letter-spacing: -1px;
+}
+.second-part p{
+  text-align:justify;
+  letter-spacing: -1px;
+}
+.third-part p{
+  text-align:justify;
+  letter-spacing: -1px;
+}
+.fisrt-part button{
+  position:relative;
+  left:70px;
+  top:10px;
+  background-color:rgb(10, 125, 170);
+  color:white;
+  padding:5px;
+  border:1px solid rgb(10, 125, 170);
+
+}
+.second-part button{
+  position:relative;
+  left:100px;
+  top:10px;
+  background-color:rgb(10, 125, 170);
+  color:white;
+  padding:5px;
+  border:1px solid rgb(10, 125, 170);
+}
+.third-part button{
+  position:relative;
+  left:75px;
+  top:10px;
+  background-color:rgb(10, 125, 170);
+  color:white;
+  padding:5px;
+  border:1px solid rgb(10, 125, 170);
+}
+.footer{
+  width:100%;
+  background-color:silver;
+  position:relative;
+  top:80px;
+}
+.footer-items{
+width:30%;
+margin:0% auto;
+display:flex;
+justify-content:center;
+flex-direction: row;
+}
+.footer-items i{
+  margin-left:25px;
+}
+.footer-para {
+  width:30%;
+  margin:0 auto;
+}
+.footer-para p{
+  margin-top:20px;
+  text-align:center;
+  
+}
+/*media queries starts here */
+
+@media only screen and (max-width:900px){
+  .banner{
+    width:50%;
+   position:relative;
+   top:180px;
+  }
+  .banner h4{
+    font-size:30px;
+    font-weight:400px;
+  
+  }
+  .banner p{
+  
+    font-size:18px;
+    margin-top:10px;
+    word-spacing: -1px;
+  }
+  
+  .banner a{
+    position:relative;
+    top:20px;
+    font-size:20px;
+    padding:3px;
+   
+  }
+  .image{
+    width:100%;
+    clear:both;
+  
+  }
+  .two-section .image img{
+    width:80%;
+  }
+  
+ 
+  .three-section{
+    width:100%;
+    clear:both;
+  }
+  .three-section h3{
+    font-weight:bolder;
+    font-size:25px;
+    
+  }
+  .three-section p{
+    
+    font-size:12px;
+    line-height:20px;
+  
+  }
+  .three-section button{
+  
+    font-size:10px;
+    margin-top:15px;
+    padding:5px;
+  
+  }
+  .master{
+    width:70%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+  }
+  .master .child1{
+    width:100%;
+    padding:5px;
+  
+  }
+  
+
+  .master .child1 h3{
+    font-size:25px;
+  }
+  .master .child1 p{
+    font-size:12px;
+    line-height:18px;
+  }
+  .master .child1 button{
+    font-size:10px;
+  }
+  .master .child2{
+    width:100%;
+    margin-top:40px;
+  }
+  .master .child2 img{
+    width:80%;
+    margin-top:20px;
+  }
+  
+  /*section four*/
+  .three-part{
+    flex-direction:column; 
+  }
+  .fisrt-part{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .second-part{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .third-part{
+    width:100%;
+  }
+  
+ 
+  .fisrt-part button{
+    position:relative;
+    left:75px;
+    top:0
+   
+  }
+  .second-part button{
+    position:relative;
+    left:75px;
+    top:0
+        
+  }
+  .footer-para p{
+   
+    font-size:12px;
+    font-weight:600;
+    
+  }
+
+}
+
